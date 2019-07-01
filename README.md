@@ -1,4 +1,4 @@
-## Automated repository creation
+## Automated GitHub Repository creation and removal
 
 #### Necessary software 
 * Selenium
