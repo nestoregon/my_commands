@@ -9,6 +9,9 @@ function repo_create(){
     git init
     git remote add origin git@github.com:nestoregon/$1.git
     touch README.md
+    touch .gitignore
+    echo "/build/" >> .gitignore
+    echo "/devel/" >> .gitignore
     git add .
     git commit -m "Initializing repository $1"
     git push -u origin master

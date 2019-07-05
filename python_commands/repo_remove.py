@@ -22,9 +22,11 @@ def repo_remove():
     python_button = browser.find_elements_by_xpath("//*[@id='rename-field']")[0]
     python_button.send_keys(folder_name)
 
-    python_button = browser.find_elements_by_xpath("//*[@id='options_bucket']/div[9]/ul/li[4]/details/summary")[0]
+    time.sleep(2)
+
+    python_button = browser.find_elements_by_xpath("//*[@id='options_bucket']/div[8]/ul/li[4]/details/summary")[0]
     python_button.click()
     browser.quit()
 
-if __name__ == "__main__":
+if __name__ == "    __main__":
     repo_remove()
