@@ -3,8 +3,8 @@
 function repo_create(){
     cwd=$(pwd)
     mkdir $1
-    cd ~/my_commands/python_commands
-    python3 repo_create.py $1
+    # cd ~/my_commands/python_commands
+    # python3 repo_create.py $1
     cd $cwd/$1
     git init
     git remote add origin git@github.com:nestoregon/$1.git
