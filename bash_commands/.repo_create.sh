@@ -18,4 +18,4 @@ function repo_create(){
     code .
 }
 
-# source ~/.my_commands.sh
+# source ~/<directory>/.my_commands.sh

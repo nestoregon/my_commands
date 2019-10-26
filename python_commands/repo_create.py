@@ -21,7 +21,7 @@ def repo_create():
     # create repository
     python_button = browser.find_elements_by_xpath("//*[@id='new_repository']/div[3]/button")[0]
     python_button.submit() #click() didn't work here so submit() instead
-    browser.quit() # really important, without this it won't continue
+    browser.click() # really important, without this it won't continue
     
 
 if __name__ == "__main__":
